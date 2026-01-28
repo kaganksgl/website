@@ -5,14 +5,14 @@ body {
 }
 #header {
     display: flex;
-    align-items: center;      /* dikey hizalama */
-    justify-content: center;  /* ortalama (istersen kaldırabilirsin) */
-    gap: 15px;                /* görsel ile başlık arası boşluk */
+    align-items: center;      
+    justify-content: center;   
+    gap: 2%;                
     color: white;
 }
 
 #header-icon {
-    width: 40px;   /* ihtiyaca göre */
+    width: 40px;   
     height: 40px;
     border-radius: 25%;
 }
@@ -23,7 +23,7 @@ body {
     margin: 2% 15%;
     padding: 1%;
     background-color: #0f0f0f;
-    border-radius: 15px;
+    border-radius: 2%;
     
 }
 .articles {
@@ -32,5 +32,14 @@ body {
 }
 
 #article-headers {
-    font-size: larger;
+    font-size:x-large;
+}
+ 
+#date {
+    font-size: smaller;
+}
+
+#article-previews {
+    text-align: justify;
+    hyphens: auto;
 }
