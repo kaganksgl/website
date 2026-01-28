@@ -23,8 +23,7 @@ body {
     margin: 2% 15%;
     padding: 1%;
     background-color: #0f0f0f;
-    border-radius: 2%;
-    
+    border-radius: 4%;
 }
 .articles {
     text-align: left;
@@ -44,8 +43,14 @@ body {
     hyphens: auto;
 }
 
-#links {
-         
-    text-decoration: none;
+#links:link, :visited {
+    color: grey;
+    background-color: #1f1f1f;
+    padding: 1%;
+}
+
+#links:hover, :active {
+    background-color: #2f2f2f;
+    padding: 1%;
 }
 

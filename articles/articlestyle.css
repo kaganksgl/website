@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/945731-3840x2160-desktop-4k-matte-black-wallpaper-image.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sheet1 {
+    text-align: center;
+    color: #c2c2c2;
+    margin: 2% 15%;
+    padding: 1%;
+    background-color: #0f0f0f;
+    border-radius: 4%;
+}
