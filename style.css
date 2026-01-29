@@ -17,13 +17,19 @@ body {
     border-radius: 25%;
 }
 
+@keyframes myanimation {
+    from {background-color: #1f1f1f;}
+    to {background-color: #7a0505;}
+}
+
+
 .sheet1 {
     text-align: center;
     color: #c2c2c2;
     margin: 2% 15%;
     padding: 1%;
-    background-color: #0f0f0f;
-    border-radius: 4%;
+    background-color: #1f1f1f;
+    border-radius: 3%;
 }
 
 .articles {
@@ -44,14 +50,16 @@ body {
     hyphens: auto;
 }
 
-#links:link, :visited {
+#links:link, #links:visited {
     color: grey;
     background-color: #1f1f1f;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 #links:hover {
-    background-color: #2f2f2f;
-    padding: 1%;
+    animation-name: myanimation;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    padding: 0.7%;
 }
 
